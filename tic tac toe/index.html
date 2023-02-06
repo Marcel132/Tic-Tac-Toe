@@ -1,0 +1,61 @@
+<!DOCTYPE html5>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free online game - tic-tac-toe">
+  <meta name="keywords" content="HTML, CSS, JavaScript, TIC-TAC-TOE, game, website, offline">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Marcel Podsiadło">
+
+  <link rel="stylesheet" href="styles/main.css" type="text/css">
+
+  <title>Tic Tac Toe</title>
+
+</head>
+<body>
+  
+  <main>
+
+    <div id="container">
+
+      <div id="info-side">
+  
+        <h1 id="info-header">Witaj w grze kółko i krzyżyk!</h1>
+        <div class="info-box">
+          <p>Aby zacząć, kliknij wybrane przez siebie pole <i>(zawsze zaczyna X)</i></p>
+        </div>
+  
+      </div>
+  
+      <div id="game-board">
+        
+        <div class="part-of-board"></div>
+        <div class="part-of-board"></div>
+        <div class="part-of-board"></div>
+        <div class="part-of-board"></div>
+        <div class="part-of-board"></div>
+        <div class="part-of-board"></div>
+        <div class="part-of-board"></div>
+        <div class="part-of-board"></div>
+        <div class="part-of-board"></div>
+  
+      </div>
+
+      <div id="result-box">
+        <p>WYNIK: <span id="result"></span></p>
+        <button id="btn-restart">RESTART</button>
+      </div>
+
+
+    </div>
+
+  </main>
+
+
+  <script src="assets/scripts/app.js"></script>
+  <script src="assets/scripts/restartWindow.js"></script>
+  
+  
+</body>
+</html>

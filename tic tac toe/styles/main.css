@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --border: 2px solid #000;
+  --bgcolor-section: #fff;
+}
+
+body {
+  font-size: 15px;
+  font-style: arial;
+  background-color: #a5a5a5;
+}
+
+#container {
+  width: 100%;
+}
+
+#info-side {
+  margin: 10px;
+  padding: 0px;
+}
+
+#info-header {
+  padding: 40px;
+  text-align: center;
+  margin: 0 0 20px 0;
+  background-color: var(--bgcolor-section);
+  border: var(--border);
+}
+
+.info-box {
+  background-color: var(--bgcolor-section);
+  border: var(--border);
+  padding: 20px;
+  text-align: center;
+}
+
+#game-board {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.part-of-board {
+  width: 29%;
+  margin: 2.5px;
+  height: 70px;
+  border: var(--border);
+  background-color: var(--bgcolor-section);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#result-box {
+  margin: 10px 50px;
+  padding: 20px;
+  border: var(--border);
+  background-color: var(--bgcolor-section);
+}
+
+#btn-restart{
+  padding: 5px;
+  margin: 10px;
+}
+
+/* ------------------------------ MEDIA  ## 500  ## ------------------------------ */
+
+@media screen and (min-width: 500px) {
+
+  body {
+    font-size: 20px;
+  }
+
+  #container {
+    margin: auto;
+    width: 80%;
+  }
+  
+  #info-side {
+    margin: 15px;
+  }
+  
+  .info-box {
+    padding: 40px;
+  }
+  
+  .part-of-board {
+    width: 30%;
+    margin: 2.5px;
+    height: 100px;
+  }
+  
+  #resul-box {
+    margin: 10px 40px;
+    padding: 20px;
+  }
+}
+
+/* ------------------------------ MEDIA  ## 1000  ## ------------------------------ */
+
+@media screen and (min-width: 1000px) {
+
+  body {
+    font-size: 25px;
+  }
+  
+  #container {
+    width: 60%;
+  }
+
+  .part-of-board {
+    width: 30%;
+    margin: 2.5px;
+    height: 100px;
+  }
+}

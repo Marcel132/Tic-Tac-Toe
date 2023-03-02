@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+$primary-color: #f86b6b;
+$secondary-color: #f7de79;
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+  font-family: "Inter", "Helvetica";
+  background: linear-gradient(45deg, $primary-color, $secondary-color);
+}
+
+#container {
+  width: 600px;
+  margin: 10px auto;
+  text-align: center;
+}
+#wrapper {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 40px;
+  letter-spacing: 1px;
+}
+
+#info-header {
+  font-size: 40px;
+}
+
+#info-box {
+  opacity: .7;
+}
+
+#game-board {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.part-of-board {
+  flex: 0 1 calc(33.33% - 20px);
+  height: 100px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#result-box {
+  width: 250px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #ccc
+}
+
+ #btn-restart{
+   padding: 10px;
+   background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    width: 400px;
+    margin: 30px auto;
+  }
+  .part-of-board {
+    // flex-basis: calc(33% - 20px);
+    height: 100px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #container {
+    width: 90%;
+  }
+  .part-of-board {
+    // flex-basis: calc(33% - 20px);
+    height: 50px;
+  }
+}
+

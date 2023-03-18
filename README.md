@@ -1,7 +1,7 @@
 # Tic-Tac-Toe
-ENG: Here is a popular game - Tic Tac Toe. To create this I used HTML, SASS and JavaScript. 
+ENG: Here is a popular game - Tic Tac Toe.
 
-PL: Jest to popularna gra - kółko i krzyżyk. Do stworzenia jej użyłem HTML, SASS i JavaScript
+PL: Jest to popularna gra - kółko i krzyżyk.
 
 ## Technology used
   - HTML 5
